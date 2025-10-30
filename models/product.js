@@ -39,6 +39,8 @@ const productSchema = mongoose.Schema({
     }
 })
 
+// Testing commit
+
 const Product = mongoose.model("products", productSchema)
 
 export default Product;
